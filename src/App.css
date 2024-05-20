@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(155, 77, 228, 0.836);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.formulario{
+  border: 10;
+  border-color: black;
+  border-radius: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formulario label{
+  color: black;
+  font-size: 18px;
 }
+.formulario .btn_enviar{
+  color: black;
+  width: 100px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
