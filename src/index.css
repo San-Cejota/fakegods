@@ -3,7 +3,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: #FEFCFD;
+}
 .App{
     max-width: 1550px;
     width: 100%;
@@ -24,7 +26,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     position: fixed;
-    background-color: beige;
+    background-color: #5D5D81;
     box-sizing: border-box;
     box-shadow: 0 5px 10px #0000;
 }
@@ -36,7 +38,7 @@ header a{
 }
 
 header a:hover {
-    color: rgb(174, 97, 245);
+    color:#FEFCFD;
 }
 
 header li{
@@ -92,7 +94,8 @@ header .carrito box-icon{
 .title{
     font-size: 2.4rem;
     padding: 10rem 0 0 0 ;
-    color: black;
+    color: #000505;
+    font-weight: bold;
 }
 .productos{
     padding: 5rem 1rem;
@@ -153,7 +156,7 @@ header .carrito box-icon{
     border-radius: 5px;
 }
 .button button{
-    background-color: #3033d3;
+    background-color:#5D5D81;
     max-width: 250px;
     width: 100%;
     font-size: 1rem;

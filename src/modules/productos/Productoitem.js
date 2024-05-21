@@ -1,5 +1,4 @@
 import React from "react";
-import NIKE  from "../../images/img01.jpg";
 
 export const ProductoItem = ({
     id,
