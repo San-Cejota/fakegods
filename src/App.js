@@ -1,13 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Login from './componentes/logins';
+import React from "react";
+import Header from "./modules/header/navbar";
+import ProductosListen from "./modules/productos/productos";
+import "boxicons";
+import { BrowserRouter as Router } from "react-router-dom";
+import {Paginas} from "./modules/paginas";
+import { DataProvidier } from "./context/DataProvidier"
 
 function App() {
-  return (
-    <div className="App">
-      <Login/>
-    </div>
-  );
-}
+    return (
+      <DataProvidier>
+      <div className="App">
+        <Router>
+        <Header/>
 
+        <Paginas/>
+        </Router>
+      </div>
+      </DataProvidier>
+    );
+  }
 export default App;
