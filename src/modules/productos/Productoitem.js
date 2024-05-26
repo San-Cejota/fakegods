@@ -1,5 +1,6 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import {  DataContext} from "../../context/DataProvidier";
 export const ProductoItem = ({
     id,
     title,
@@ -9,6 +10,10 @@ export const ProductoItem = ({
     cantidad
 }) =>{
     
+    const value= useContext(DataContext);
+    const aggCarrito = value.aggCarrito;
+
+
     return (
         <div className="producto">
         <a href="">
@@ -22,7 +27,7 @@ export const ProductoItem = ({
             <p className="precio">${price}</p>
         </div>
         <div className="button">
-            <button className="btn">Añadir al carrito</button>
+            <button className="btn" onClick={()=>aggCarrito(id)}>Añadir al carrito</button>
             <div>
                 <a href="" className="btn">
                     Vista

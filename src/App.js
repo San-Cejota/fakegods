@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./modules/header/navbar";
-import ProductosListen from "./modules/productos/productos";
 import "boxicons";
 import { BrowserRouter as Router } from "react-router-dom";
 import {Paginas} from "./modules/paginas";
 import { DataProvidier } from "./context/DataProvidier"
+import { Carrito } from "./modules/carrito/Carrito";
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Router>
         <Header/>
-
+        <Carrito/> 
         <Paginas/>
         </Router>
       </div>
