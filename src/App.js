@@ -8,6 +8,7 @@ import { Carrito } from "./modules/carrito/Carrito";
 import Login from "./modules/login/login";
 import {useCookies} from "react-cookie"
 import Registro from "./modules/login/registro";
+import './index.css'
 
 function App() {
   const [cookies] = useCookies(["login"])

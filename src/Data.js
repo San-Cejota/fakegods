@@ -7,8 +7,8 @@ const data = {
       price: 450,
       image: require('./images/travis_cafe.jpg'),
       category: "jordan",
-      img1: "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-Black-Nylon/Images/Nike-LD-Waffle-Sacai-Black-Nylon/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606321430&w=1000",
+      img1: "https://images.stockx.com/360/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img19",
+      img2: ".jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635191289&h=384&q=57",
       cantidad: 1,
     },
     {

@@ -1,5 +1,5 @@
 import React from "react";
-import Portada from "../../images/inicio.jpg";
+import Portada from "../../images/opc3.jpg";
 
 export const Inicio = () => {
     return (
